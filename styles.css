@@ -1,7 +1,7 @@
 thead,
 tfoot {
   background-color: #2c5e77;
-  color: #fff;
+  color: #ffffff;
 }
 
 tbody {
@@ -11,9 +11,25 @@ tbody {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
-  font-family: sans-serif;
-  font-size: 0.8rem;
+  font-family: Kanit;
+  font-size: 16px;
   letter-spacing: 1px;
+}
+
+.table-profile {
+  font-family: Kanit;
+  font-size: 16px;
+  margin: auto;
+  border-collapse: collapse;
+  border: 0px solid;
+  background-color: #E1F7F5;
+}
+
+.tr-profile, .td-profile {
+  border: 0px;
+  padding: 8px 20px;
+  background-color: #E1F7F5;
+  margin-left: 20px;
 }
 
 caption {
@@ -31,6 +47,17 @@ td {
   text-align: left;
 }
 
-hr {
-    
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
+
+
+thead {
+  font-family: Kanit;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
